@@ -24,12 +24,21 @@ class Octree{
 public:
     Point base_point;
     Point top_point;
-    Octree * ptr_father;
     Octree * ptr_child[8];
     Point data;
 
-    Octree(){}
+    Octree(){
+        
+    }
     ~Octree(){}
+
+    void insert(){
+
+    }
+    
+    bool find(){
+
+    }
 };
 
 int main() {
